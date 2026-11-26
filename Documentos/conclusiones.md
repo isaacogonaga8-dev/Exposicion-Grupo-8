@@ -1,7 +1,11 @@
 Conclusiones: ArrayList vs. LinkedList
 
 
+
 Las estructuras de datos determinan la forma en que un programa almacena, consulta y modifica la información. En el lenguaje Java, las clases ArrayList y LinkedList implementan la interfaz List y permiten manejar colecciones ordenadas de elementos; sin embargo, su implementación interna es distinta, lo cual influye directamente en el rendimiento de cada operación.
+
+
+
 
 
 La elección de la estructura depende de la operación predominante. No existe una estructura superior en todos los casos; el desempeño de ArrayList y LinkedList varía según se trate de consultar, insertar, eliminar o buscar elementos.
@@ -15,6 +19,9 @@ La medición de tiempos permitió comprobar la teoría en la práctica. Los ejer
 
 
 Importancia del tema
+
+
+
 Eficiencia del software: seleccionar correctamente la estructura de datos reduce el tiempo de ejecución y el consumo de recursos, aspecto crítico cuando se trabaja con grandes cantidades de información.
 Base para el estudio de estructuras de datos: comprender el funcionamiento de arreglos dinámicos y listas enlazadas facilita el aprendizaje posterior de pilas, colas, árboles y grafos.
 Toma de decisiones de diseño: el programador debe analizar qué operaciones serán más frecuentes antes de elegir una estructura, y no limitarse a que el programa funcione.
