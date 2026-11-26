@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Ejercicio10 {
+    public static void main(String[] args) {
+
+        // ArrayList: calificaciones (acceso rápido por posición)
+        ArrayList<Double> calificaciones = new ArrayList<>();
+        calificaciones.add(8.5);
+        calificaciones.add(9.0);
+        calificaciones.add(7.5);
+        calificaciones.add(10.0);
+
+        System.out.println("Calificación en la posición 2: " + calificaciones.get(2));
+
+        double suma = 0;
+        for (double nota : calificaciones) {
+            suma += nota;
+        }
+        System.out.println("Promedio: " + suma / calificaciones.size());
+
+        // LinkedList: fila de turnos (se atiende siempre al inicio)
+        LinkedList<String> turnos = new LinkedList<>();
+        turnos.add("Ana");
+        turnos.add("Luis");
+        turnos.add("Marta");
+        turnos.addFirst("Adulto mayor (prioridad)");
+
+        System.out.println("\nAtención de turnos:");
+        while (!turnos.isEmpty()) {
+            System.out.println("Atendiendo a: " + turnos.removeFirst());
+        }
+    }
+}
