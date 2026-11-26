@@ -4,7 +4,7 @@ import java.util.LinkedList;
 public class Ejercicio10 {
     public static void main(String[] args) {
 
-        // ArrayList: calificaciones (acceso rápido por posición)
+       
         ArrayList<Double> calificaciones = new ArrayList<>();
         calificaciones.add(8.5);
         calificaciones.add(9.0);
@@ -19,7 +19,7 @@ public class Ejercicio10 {
         }
         System.out.println("Promedio: " + suma / calificaciones.size());
 
-        // LinkedList: fila de turnos (se atiende siempre al inicio)
+       
         LinkedList<String> turnos = new LinkedList<>();
         turnos.add("Ana");
         turnos.add("Luis");
